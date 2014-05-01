@@ -3,8 +3,11 @@ from rumps import *
 DROPBOX_APP_FOLDER = "/Users/graham/Dropbox/Apps/localhost-dev/"
 PORT = 9000
 
+started = False
+
 def print_f(a):
-    print 'hi', a
+    import webbrowser
+    webbrowser.open('http://localhost:8080/')
 
 app = App('localhost_webserver', icon='icon.png')
 app.menu = [
@@ -12,5 +15,8 @@ app.menu = [
     None
 ]
 
+import dohost
+dohost.run()
+print 'running'
 
 app.run()
