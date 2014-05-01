@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:light&v1' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="theme.css">
+    <script src="https://genie.site44.com/jquery.js"></script>
+    <script src="https://genie.site44.com/genie.js"></script>
+    <script src="https://genie.site44.com/kapture.js"></script>
+    <script src="https://genie.site44.com/storage.js"></script>
+    <script src="filters.js"></script>
+    <script src="recovery_actions.js"></script>
+    <script language='javascript'>
+    </script>
+    <meta name="viewport" content="initial-scale=1.0">
+
+    <!--script src="https://apis.google.com/js/client.js?onload=init"></script-->
+    <script src="https://www.dropbox.com/static/api/dropbox-datastores-1.0-latest.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <h1> RECOVERY </h1>
+    <div id='container'>
+      <div id='filter-list'></div>
+      <div id='the-list'>loading...</div>
+    </div>
+
+    <div>
+      <div id='log'></div>
+    </div>
+    <div style='text-align:center; font-size: 12px;'><a href=# onclick="$('#helptable').show(); return false;">Help</a> <div id='status'></div>
+      <div id='info'>
+        Deferred: <span id='deferred_info'></span> |
+        Filtered: <span id='filtered_info'></span> |
+        Total: <span id='total_info'></span>
+      </div>
+    <center><table style='display:none;' id='helptable'>
+      <tr><td>j</td><td>down</td></tr>
+      <tr><td>k</td><td>up</td></tr>
+      <tr><td>x</td><td>toggle selection</td></tr>
+      <tr><td>y</td><td>delete selected</td></tr>
+      <tr><td>e</td><td>edit current item</td></tr>
+      <tr><td>d</td><td>defer selected items</td></tr>
+      <tr><td>b</td><td>bubble one item</td></tr>
+      <tr><td>shift-b</td><td>bubble all items</td></tr>
+      <tr><td>v</td><td>open in tab (good for links)</td></tr>
+      <tr><td>/</td><td>focus textfield</td></tr>
+      <tr><td>esc</td><td>unfocus textfield</td></tr>
+	  <tr><td></td><td onclick="$('#helptable').hide()"><a href=# style="text-align:center">Close</a></td></tr>
+    </table></center>
+    </div>
+  </body>
+
+  <script language='javascript'> </script>
+</html>

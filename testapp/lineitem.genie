@@ -1,0 +1,29 @@
+[^ expose ["ll", "index"] ^]
+
+<tr class='lineitem  [% if ll.get("selected") %]li_row_selected[% end %]' id="[[ ll.get('uid') ]]">
+    [% if index == 0 %]
+        <td class='li_selector active_li'> </td>
+    [% else %]
+        <td class='li_selector'></td>
+    [% end %]
+ 
+    <td class='li_checkbox'><input type='checkbox' [% if ll.get("selected") %]checked="true"[% end %]></td> 
+    <td class='td_slug'> 
+      [% if ll.get('slug')[0] == "^" %]
+        [% if x_in_list('#done', _env.get_obj('pull_tags')(ll.get('slug'))) %]
+          <span style='text-decoration:line-through;'>[[ _env.get_obj('render_checklist')(ll.get('slug')) ]]</span>
+        [% else %]
+          <span style=''>[[ _env.get_obj('render_checklist')(ll.get('slug')) ]]</span>
+        [% end %]
+      [% else %]
+        [% if x_in_list('#done', _env.get_obj('pull_tags')(ll.get('slug'))) %]
+          <span style='text-decoration:line-through;'>[[ ll.get('slug') ]]</span>
+        [% else %]
+          [[ ll.get("slug") ]]
+        [% end %]
+      [% end %]
+    </td>
+    <td class='td_project'>
+      [[ _env.get_obj('render_tags')(ll.get('slug')) ]]
+    </td>
+</tr>

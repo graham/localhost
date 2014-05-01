@@ -1,0 +1,155 @@
+body { 
+	padding: 10px 5px 0px 5px;
+	margin:0px;
+	background-color: #eee;
+ }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+* { font-family: "Open Sans"; }
+
+#container {
+    margin: 4px;
+}
+
+#the-list {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    overflow: auto;
+}
+
+table.nicelist {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+}
+
+table.nicelist > tbody {
+    padding:0px;
+    margin: 0px;
+    border-spacing: 0px;
+}
+
+table.nicelist > tbody > tr {
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+    height: 30px;
+}
+
+table.nicelist > tbody > tr > td {
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+}
+
+.lineitem {
+    background-color: rgba(243,243,243,.85);
+}
+
+table.nicelist > tbody > tr.li_row_selected {
+    background-color: rgba(255,255,0,.05);
+}
+
+.lineitem:hover {
+    background-color: rgba(243,243,243,.45);
+}
+
+table.nicelist > tbody > tr.active_li > .li_selector {
+    background-color: rgba(64,255,64,.50);
+}
+
+.li_selector {
+    width: 6px;
+    padding: 2px;
+}
+
+.li_checkbox {
+    width: 26px;
+    text-align: center;
+}
+
+
+.li_tag {
+    background-color: rgba(255, 0, 128, 0.40);
+    padding: 4px;
+    text-align: center;
+    font-size: 12px;
+    width: 40px;
+    border-radius:5px;
+    display: inline;
+}
+
+.li_project {
+    background-color: rgba(0, 100, 255, 0.40);
+    padding: 4px;
+    text-align: center;
+    font-size: 12px;
+    width: 40px;
+    border-radius:5px;
+    display: inline;
+    margin-left: 2px;
+}
+
+.td_project {
+    float:right;
+    text-align:right;
+}
+
+.td_slug {
+    width: auto;
+}
+#search {
+    width: 100%;
+    padding:4px;
+    margin:0px;
+    margin-bottom:4px;
+    font-size: 24px;
+}
+
+#log {
+ text-align:right;
+}
+
+#filter-list {
+    text-align: center;
+}
+
+.flash{
+
+  -moz-animation: flash 1s ease-out;
+  -moz-animation-iteration-count: 1;
+
+  -webkit-animation: flash 1s ease-out;
+  -webkit-animation-iteration-count: 1;
+
+  -ms-animation: flash 1s ease-out;
+  -ms-animation-iteration-count: 1;
+
+}
+
+@-webkit-keyframes flash {
+    0% { background-color:none;}
+    50% { background-color:#fbf8b2;}        
+    100% {background-color:none;}
+}
+
+@-moz-keyframes flash {
+    0% { background-color:none;}
+    50% { background-color:#fbf8b2;}        
+    100% {background-color:none;}
+}
+
+@-ms-keyframes flash {
+    0% { background-color:none;}
+    50% { background-color:#fbf8b2;}        
+    100% {background-color:none;}
+}

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/graham/pulled/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/graham/pulled/commits/master.atom"/>
+  <title>Recent Commits to pulled:master</title>
+  <updated>2014-04-30T17:54:42-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2ef36b7cc653b6fbf15f1dd61d993d00931567fd</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/2ef36b7cc653b6fbf15f1dd61d993d00931567fd"/>
+    <title>
+        getting rid of some cruft.
+    </title>
+    <updated>2014-04-30T17:54:42-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>getting rid of some cruft.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/be79120c34ebb6394e2d847dcb4da15e38249bde</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/be79120c34ebb6394e2d847dcb4da15e38249bde"/>
+    <title>
+        added a downloader for master.atom so that on push my commit history will be saved, that way I can show it as release notes.
+    </title>
+    <updated>2014-04-30T17:47:31-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>added a downloader for master.atom so that on push my commit history will be saved, that way I can show it as release notes.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c250ced90f31918f88d7aec9cc9f2b1de643ba49</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/c250ced90f31918f88d7aec9cc9f2b1de643ba49"/>
+    <title>
+        added live search, things are a little safer now.
+    </title>
+    <updated>2014-04-30T16:17:59-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>added live search, things are a little safer now.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c5e27645d49c5921a1c05a26327e460b7561cc70</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/c5e27645d49c5921a1c05a26327e460b7561cc70"/>
+    <title>
+        changing the way recovery works, now it&#39;s a separate window.
+    </title>
+    <updated>2014-04-30T15:53:10-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>changing the way recovery works, now it&#39;s a separate window.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0e83133709f96c2330f3712491de90412bf35557</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/0e83133709f96c2330f3712491de90412bf35557"/>
+    <title>
+        annnnnnd that didnt work, now back to opensans font.
+    </title>
+    <updated>2014-04-30T00:33:39-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>annnnnnd that didnt work, now back to opensans font.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6b018b3c8ac5666637a567912007a05b59508eaa</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/6b018b3c8ac5666637a567912007a05b59508eaa"/>
+    <title>
+        better font
+    </title>
+    <updated>2014-04-30T00:28:09-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>better font&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9dc7f0d3a80f109264bee574d94b5491bf7a6ce6</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/9dc7f0d3a80f109264bee574d94b5491bf7a6ce6"/>
+    <title>
+        removing local paths.
+    </title>
+    <updated>2014-04-29T19:57:35-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>removing local paths.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b841771f031057057b1f01a669ba7bbcd6c81d5d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/b841771f031057057b1f01a669ba7bbcd6c81d5d"/>
+    <title>
+        getting rid of weird google stuff.
+    </title>
+    <updated>2014-04-29T19:52:59-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>getting rid of weird google stuff.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d0972b1bd483a4f2777de8cdfc1bb1faf445f951</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/d0972b1bd483a4f2777de8cdfc1bb1faf445f951"/>
+    <title>
+        creating the config.html page
+    </title>
+    <updated>2014-04-29T19:50:04-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>creating the config.html page&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3451f6b1e4e27c7dcb2fd3de9444f4301aeee0ad</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/3451f6b1e4e27c7dcb2fd3de9444f4301aeee0ad"/>
+    <title>
+        cleaned up some more checklist stuff and added some nice sorting, fixed a bug with #done
+    </title>
+    <updated>2014-04-29T17:42:52-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>cleaned up some more checklist stuff and added some nice sorting, fixed a bug with #done&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8b289f5279c945353da9dc757701027dbed04814</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/8b289f5279c945353da9dc757701027dbed04814"/>
+    <title>
+        Added a checklist type, still not clear how this will work, but it is a good first try. Also added click event to tags so that you can navigate that way.
+    </title>
+    <updated>2014-04-29T16:34:08-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Added a checklist type, still not clear how this will work, but it is a good first try. Also added click event to tags so that you can navigate that way.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b3468812e260f61a55904f88559435f17a5cb712</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/b3468812e260f61a55904f88559435f17a5cb712"/>
+    <title>
+        proper bubbling, as well as cleaning up a ton of keyboard things.
+    </title>
+    <updated>2014-04-29T11:47:56-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>proper bubbling, as well as cleaning up a ton of keyboard things.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c92206bfc31fcec9919fdf9b9f5faa1e5bc77ae4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/c92206bfc31fcec9919fdf9b9f5faa1e5bc77ae4"/>
+    <title>
+        complete reworking of all of the prependers (things that come before a tag or person).
+    </title>
+    <updated>2014-04-29T00:31:32-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>complete reworking of all of the prependers (things that come before a tag or person).&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c601ce9093dbe1a48e15e4c9c6d3cb19a1144fa7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/c601ce9093dbe1a48e15e4c9c6d3cb19a1144fa7"/>
+    <title>
+        Merge pull request #1 from graham/clays
+    </title>
+    <updated>2014-04-28T23:26:05-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Merge pull request #1 from graham/clays
+
+Close button&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/bda34ee8b36fe78978dad7a9e0e67627a184a31c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/bda34ee8b36fe78978dad7a9e0e67627a184a31c"/>
+    <title>
+        Close button
+    </title>
+    <updated>2014-04-28T23:26:37-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://1.gravatar.com/avatar/f361e9e5eb2406602f6c14d1e854ed8c?d=https%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=x&amp;s=30"/>
+    <author>
+      <name></name>
+      <email>clayturk@Clay-Turks-MacBook-Air.local</email>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>Close button
+
+added a close link in the expanded help menu
+also added a wee bit of padding to the body&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/81d3f8ff41479465f73b72c94d60693dbea32961</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/81d3f8ff41479465f73b72c94d60693dbea32961"/>
+    <title>
+        gitignore
+    </title>
+    <updated>2014-04-28T23:23:46-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>gitignore&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c22fe0cda9a97e1a37ec5117c4abf54ab3c6e17d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/c22fe0cda9a97e1a37ec5117c4abf54ab3c6e17d"/>
+    <title>
+        more vibrant colors (again) and clicking works on the checkboxes now.
+    </title>
+    <updated>2014-04-28T23:23:02-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>more vibrant colors (again) and clicking works on the checkboxes now.&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d3f1488dd0f85b49c1cba3201cc310c1bdc55ee2</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/d3f1488dd0f85b49c1cba3201cc310c1bdc55ee2"/>
+    <title>
+        colors are a bit better
+    </title>
+    <updated>2014-04-28T23:00:09-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>colors are a bit better&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/398f622accad70bafaadffccb2f56d63331e5659</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/398f622accad70bafaadffccb2f56d63331e5659"/>
+    <title>
+        first import
+    </title>
+    <updated>2014-04-28T22:17:13-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>first import&lt;/pre>
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/723e517525ed604cd5120d825a42d8d6fbff866a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/graham/pulled/commit/723e517525ed604cd5120d825a42d8d6fbff866a"/>
+    <title>
+        first commit
+    </title>
+    <updated>2014-04-28T22:13:09-07:00</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/1282?s=30"/>
+    <author>
+      <name>graham</name>
+      <uri>https://github.com/graham</uri>
+    </author>
+    <content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'>first commit&lt;/pre>
+    </content>
+  </entry>
+</feed>

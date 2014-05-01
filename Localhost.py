@@ -1,13 +1,8 @@
 from rumps import *
 
-DROPBOX_APP_FOLDER = "/Users/graham/Dropbox/Apps/localhost-dev/"
-PORT = 9000
-
-started = False
-
 def print_f(a):
     import webbrowser
-    webbrowser.open('http://localhost:8080/')
+    webbrowser.open('http://localhost:3000/')
 
 app = App('localhost_webserver', icon='icon.png')
 app.menu = [

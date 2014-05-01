@@ -1,0 +1,9 @@
+[^ expose "lines" ^]
+
+<table class='nicelist'>
+  <tbody>
+    [% for ll in lines %]
+      [[ partial('lineitem.genie', {'ll':ll, 'index':index}) ]]
+    [% end %]
+  </tbody>
+</table>
