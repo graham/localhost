@@ -3,6 +3,16 @@ import os
 import json
 import threading
 
+d = {}
+
+d['root'] = os.environ['HOME'] + '/DropboxPersonal/Apps/site44/pulled.site44.com/'
+
+def set_dev():
+    d['root'] = os.environ['HOME'] + '/DropboxPersonal/Apps/site44/pulled-dev.site44.com/'
+
+def set_prod():
+    d['root'] = os.environ['HOME'] + '/DropboxPersonal/Apps/site44/pulled.site44.com/'
+
 class ServerThread(threading.Thread):
     def run(self):
         import web
@@ -11,8 +21,8 @@ class ServerThread(threading.Thread):
             def GET(self, path):
                 if not path:
                     path = 'index.html'
-                path = 'testapp/' + path
-                
+                path = d['root'] + path
+
                 if not os.path.exists(path):
                     return 404, "Not Found"
                 else:
@@ -25,7 +35,7 @@ class ServerThread(threading.Thread):
         class MyApplication(web.application):
             def run(self, port=8080, *middleware):
                 func = self.wsgifunc(*middleware)
-                return web.httpserver.runsimple(func, ('0.0.0.0', port))
+                return web.httpserver.runsimple(func, ('127.0.0.1', port))
 
 
         app = MyApplication(urls)
